@@ -1,0 +1,53 @@
+brew update
+brew install cmake
+brew install python
+brew install llama.cpp
+
+
+Verify
+llama-cli --help
+
+
+choco install cmake -y
+choco install python -y
+choco install llama.cpp -y
+
+Verify:
+Verify:
+
+Ubuntu/Debian
+sudo apt update
+sudo apt install -y build-essential cmake python3 python3-pip
+git clone https://github.com/ggerganov/llama.cpp
+cd llama.cpp
+make
+
+
+Verify:
+./main --help
+
+Part 2: Python Dependencies (Standardized)
+
+Create a virtual environment (mandatory):
+
+
+python -m venv venv
+source venv/bin/activate   # Windows: venv\Scripts\activate
+
+Install Python libs:
+pip install llama-cpp-python
+pip install pydantic
+pip install rich
+
+Why these?
+  llama-cpp-python → LLaMA bindings
+  pydantic → structured outputs later
+  rich → readable console output (morale matters)
+
+
+
+
+
+
+
+
