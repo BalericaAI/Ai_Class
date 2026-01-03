@@ -1,6 +1,8 @@
 2026 Jan 3rd.
 
 Read: Chapter 1 - Prompt Chaining: https://github.com/BalericaAI/Ai_Class/tree/main/AI%20Course/Chapter%201%20-%20Prompt%20Chaining
+
+
 Read: AI Engineering, Huyen: Chapter 2: Understanding Foundation Models
 
 Deliverables:
