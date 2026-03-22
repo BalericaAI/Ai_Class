@@ -11,5 +11,7 @@ LLM triage over everything
 Example script: ai_devsecops_pipeline.py
 
 So, make ai_devsecops_pipeline.py
+https://github.com/BalericaAI/Ai_Class/blob/main/lab9_aisecops_scanner/python/ai_devsecops_pipeline.py
+
 
 
