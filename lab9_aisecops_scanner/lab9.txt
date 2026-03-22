@@ -1,3 +1,28 @@
 Let's see if we can make a security scanner work.
 
-1) scanner.py
+1) Make a directory with scanner.py
+
+What the user inputs
+
+The student manually enters:
+
+a local repo path, or
+an authorized Git URL
+What the policy agent does
+
+It looks at the repo inventory and decides which scanners make sense.
+
+What the scanners do
+Bandit checks Python code patterns and common issues.
+Semgrep scans code for security patterns and can be used on local repos or CI/CD.
+Checkov checks Terraform for misconfigurations and can also evaluate Terraform plan JSON.
+pip-audit checks Python dependencies for known vulnerabilities, with the caution that it should be used only where you trust the dependency source enough to install/audit it.
+What the triage agent does
+
+It turns a pile of scanner output into:
+
+what matters
+what can wait
+whether the repo should pass or fail
+
+
