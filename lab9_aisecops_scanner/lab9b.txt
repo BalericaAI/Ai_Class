@@ -1,0 +1,22 @@
+Add the following:
+
+mkdir -p tests
+touch tests/test_ai_devsecops_pipeline.py
+
+First recommendation: make the main file import-friendly
+
+Before testing, make sure your file ends with:
+
+if __name__ == "__main__":
+    main()
+
+Install pytest
+
+    pip install pytest
+or
+    python3 -m pip install pytest
+
+Test file
+
+1) lab9/touch tests/test_ai_devsecops_pipeline.py
+
