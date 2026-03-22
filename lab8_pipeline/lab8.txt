@@ -4,3 +4,8 @@ mkdir -p tf_pipeline_v2
 cd tf_pipeline_v2
 touch tf_pipeline_v2.py
 
+Copy the python file into that .py --> https://github.com/BalericaAI/Ai_Class/blob/main/lab8_pipeline/python/tf_pipeline_v2.py
+
+
+
+    
