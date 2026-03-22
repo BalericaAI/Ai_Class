@@ -1,0 +1,15 @@
+Python upgrade: add plan-security and approved custom scripts
+
+Below is a clean extension of the DevSecOps scanner approach. This version adds:
+
+manual input of repo paths/URLs
+optional execution of approved scripts from security_manifest.json
+Terraform init, validate, plan
+terraform show -json
+Checkov scan of plan JSON
+LLM triage over everything
+Example script: ai_devsecops_pipeline.py
+
+So, make ai_devsecops_pipeline.py
+
+
