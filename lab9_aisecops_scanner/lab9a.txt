@@ -13,5 +13,11 @@ Example script: ai_devsecops_pipeline.py
 So, make ai_devsecops_pipeline.py
 https://github.com/BalericaAI/Ai_Class/blob/main/lab9_aisecops_scanner/python/ai_devsecops_pipeline.py
 
+Buggy Terraform: https://github.com/hashicorp-education/learn-terraform-troubleshooting
+Or here: https://github.com/BalericaAI/learn-terraform-troubleshooting
+
+Buggy Python: https://github.com/BalericaAI/python-errors
+
+
 
 
