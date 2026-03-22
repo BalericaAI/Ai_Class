@@ -1,0 +1,6 @@
+Create a new folder 
+
+mkdir -p tf_pipeline_v2
+cd tf_pipeline_v2
+touch tf_pipeline_v2.py
+
